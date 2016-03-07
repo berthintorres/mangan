@@ -24,7 +24,7 @@
     <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="twitter:description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
     <meta property="twitter:image:src" content="http://i.imgbox.com/FVXzVeXv.png">
-    <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
+    <link href="{{ site.github.url "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
     <link href="https://plus.google.com/+{{ site.secondary_social_username }}" rel="author">
     <link href="https://plus.google.com/+{{ site.secondary_social_username }}" rel="publisher">
     <link href="/favicon.png" rel="icon">
